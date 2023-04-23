@@ -1,17 +1,11 @@
-function ExpenseItems() {
-  const expenseAmount =40;
-  const expenseDate = new Date(2023,2,28)
-  const expenseTitle  = "Bike wash"
-  const loacationOfExpense ="lko"
+function ExpenseItems(props) {
   return (
     <div>
-      <h2>{expenseTitle}</h2>
-      <ol>
-        <li>{expenseAmount}</li>
-        <li>{expenseDate.toDateString()}</li>
-        <li>{loacationOfExpense}</li>
-      </ol>
-    </div>
+      <h2>{props.title}</h2>
+      <h2>{props.amount}</h2>
+      <h2>{props.date}</h2>
+      <h2>{props.location}</h2>
+      </div>
   );
 }
 
