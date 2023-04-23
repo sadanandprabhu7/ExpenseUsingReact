@@ -1,9 +1,10 @@
+import ExpenseDate from "./ExpenseDate"
+import ExpenseDetails from "./ExpenseDetails";
 function ExpenseItems(props) {
   return (
     <div>
-      <h2>{props.title}</h2>
-      <h2>{props.amount}</h2>
-      <h2>{props.date}</h2>
+      <ExpenseDetails title={props.title} amount={props.amount}></ExpenseDetails>
+     <ExpenseDate date={props.date}></ExpenseDate>
       <h2>{props.location}</h2>
       </div>
   );
