@@ -1,7 +1,7 @@
 //using node 14
 import React from "react";
 import Expenses from "./Components/Expenses/Expenses";
-function App() {
+const App=()=> {
   const expense =[
     {title:"item1",amount:10,date:new Date()},
     {title:"item1",amount:10,date:new Date()},
@@ -16,5 +16,4 @@ function App() {
       </div>
     );
 }
-
 export default App;
