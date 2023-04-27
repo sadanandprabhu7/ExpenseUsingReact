@@ -1,6 +1,6 @@
 import React from "react"
 import "./ExpenseDate.css"
-function ExpenseDate (props)
+const ExpenseDate = (props)=>
 {
     let month = props.date.toLocaleString("en-us",{month:"short"})
     let day = props.date.toLocaleString("en-us",{day:"2-digit"})
