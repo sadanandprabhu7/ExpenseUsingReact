@@ -1,6 +1,8 @@
 //using node 14
 import React from "react";
 import Expenses from "./Components/Expenses/Expenses";
+
+import NewExpense from "./Components/NewExpense/NewExpense";
 const App=()=> {
   const expense =[
     {title:"item1",amount:10,date:new Date()},
@@ -11,7 +13,7 @@ const App=()=> {
 
     return (
       <div>
-        <h2>let's get started</h2>
+        <NewExpense/>
         <Expenses items={expense}></Expenses>
       </div>
     );
