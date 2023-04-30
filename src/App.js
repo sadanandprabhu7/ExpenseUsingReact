@@ -3,7 +3,7 @@ import React,{useState} from "react";
 import Expenses from "./Components/Expenses/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
 const DUMMYEXPENSE =[
-  {id:"e1",title:"item1",amount:10,date:new Date()},
+  {id:"e1",title:"item1",amount:10,date:new Date("2020-02-04")},
   {id:"e2",title:"item1",amount:10,date:new Date()},
   {id:"e3",title:"item1",amount:10,date:new Date()},
   {id:"e4",title:"item1",amount:10,date:new Date()}
