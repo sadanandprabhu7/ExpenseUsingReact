@@ -1,4 +1,5 @@
 import ExpenseItems from "./ExpenseItems";
+import "./ExpenseList.css"
 const ExpensesList = props => {
     if(props.items.length === 0)
     {
